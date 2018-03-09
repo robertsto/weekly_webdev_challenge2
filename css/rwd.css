@@ -1,0 +1,625 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/******** LG ********/
+
+@media (max-width: 1199.98px) {
+
+    h2 {
+    font-size: 4.8rem;
+    line-height: 4.7rem;
+    padding-bottom: 1rem;
+  }
+
+}
+
+
+
+
+/******** MD ********/
+ 
+@media (max-width: 991.98px) { 
+
+  
+  /**** GENERAL ****/
+
+  /* typography */
+  html {
+    font-size: 90%;
+  }
+
+
+  h2 {
+    font-size: 4.1rem;
+    line-height: 4.2rem;
+    padding-bottom: 1rem;
+  }
+
+  p {
+    line-height: 1.55rem;
+  }
+
+
+  /* paddings */
+  .section_padding_lg {
+    padding-top: 4.25rem;
+    padding-bottom: 5.5rem;
+  }
+
+
+  /* buttons */
+  .btn-lg {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    padding: 1rem 1.7rem;
+  }
+
+
+
+  /**** NAVBAR *****/
+
+  /* menu - items */
+  .navbar-light .navbar-nav li.nav-item {
+    margin-left: 1.65rem;
+  }
+
+
+
+  /**** section - HOME ****/
+
+  .home_header .row {
+    height: 900px;
+  }
+
+
+
+  /**** section - ABOUT US ****/
+
+  .about_section{
+    background-color: #00afaf;
+  }
+
+  .about_section .container .row {
+    min-height: 470px;
+    padding-top: 0;
+  }
+
+  .about_right_column {
+    margin-left: 0;
+  }
+
+  .about_left_column {
+    margin-left: 0;
+  }
+
+
+
+  /**** section - SERVICES *****/
+
+  .services_section .container .row {
+    padding-top: 0;
+    min-height: 580px;
+  }
+
+  .services_left_column {
+    padding: 0;
+  }
+
+  .btn_with_icon {
+    width: 100%;
+  }
+
+  .btn_with_icon {
+    transform: scale(.95);
+    margin-bottom: 0.8rem;
+  }
+
+  .btn_with_icon:hover {
+    transform: scale(1.05);
+  }
+
+
+
+  /**** section - GALLERY *****/
+
+  .gallery_images_container .gallery_item {
+    padding: 0.65rem;
+  }
+
+
+
+  /**** section - Subscribe To Us ****/
+
+  .section_subscribe{
+    background: url("../images/subscribe_bg.jpg") 130% center no-repeat;
+  }
+
+  .subscribe_form input {
+    width: 95%;
+  }
+
+  .subscribe_info p {
+    padding-right: 4rem;
+  }
+
+  
+
+  /**** section - CONTACT ****/
+
+  .section_contact {
+    background: url("../images/contact_bg.jpg") center center no-repeat;
+    background-size: cover;
+  }
+
+  .contact_left_column {
+    padding-right: 0;
+  }
+
+  .contact_right_column {
+    padding-left: 1rem;
+  }
+
+
+
+  /**** FOOTER ****/
+  .section_footer {
+    background-color: #262626;
+  }
+
+  .copyright_info, .brand_footer, .made_info {
+    color: #b9b9b9;
+  }
+
+  .copyright_info {
+    font-size: 0.85rem;
+  }
+
+  .brand_footer {
+    font-size: 1.6rem;
+  }
+
+  .made_info {
+    font-size: 0.8rem;
+  }
+
+}
+
+
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+
+
+       h4 {
+        font-size: 1rem;
+        line-height: 1.2rem;
+      }
+
+
+      /**** section - BLOG ****/
+
+      .blog_post{
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+      }
+
+      /* blog post data */
+      .blog_post_date {
+        padding: 0.35rem 0.46rem 0.2rem 0.4rem;
+        border-radius: 3px;
+        margin: 1rem;
+      }
+
+      .blog_post_date time {
+        font-size: 1rem;
+        line-height: 1rem;
+      }
+
+      .blog_post_date time span {
+        font-size: 1.5rem;
+      }
+
+      /* .blog post description */
+      .blog_post_description {
+        padding: 1rem 1rem 0.6rem 1rem;
+      }
+
+    }
+
+   
+    @media (min-width: 768px) and (max-width: 875px) {
+
+      /**** section - Subscribe To Us ****/
+      .section_subscribe {
+        background: url("../images/subscribe_bg.jpg") 170% center no-repeat;
+      }
+    }
+
+
+
+/******** SM ********/
+
+@media (max-width: 767.98px) {
+
+
+  /**** GENERAL ****/
+
+  h1 {
+    font-size: 3.3rem;
+    line-height: 3.4rem;
+    font-weight: 900;
+    margin-bottom: 1.375rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+  }
+
+
+  /* paddings */
+  .section_padding_sm {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .section_padding_lg {
+    padding-top: 3.35rem;
+    padding-bottom: 3.96rem;
+  }
+
+
+
+   /**** NAVBAR *****/
+
+  nav.navbar_large {
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    background-color: rgba(249,248,251,0.85);
+  }
+
+  /* change size - bar*/
+  nav.navbar_small {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+
+  /* change size - brand */
+  .navbar_small .navbar-brand {
+    font-size: 2.4rem;
+  }
+
+  /* brand - top */
+  .brand_top {
+    font-size: 2.8rem;
+  }
+
+  /* menu - items */
+
+  .navbar-nav{
+    padding-top: 1.8rem;
+  }
+
+  .navbar-light .navbar-nav a.nav-link, .navbar-light .navbar-nav a.nav-link:hover  {
+    padding: 0.38rem 0 1rem 0;
+}
+
+  /**** section - HOME ****/
+
+  .home_header .row {
+    height: 760px;
+  }
+
+  .scroll_ico {
+    transform: scale(.75);
+}
+
+
+
+  /**** section - ABOUT US ****/
+
+  .about_section .container .row {
+    min-height: 500px;
+    padding-top: 0;
+  }
+
+  .about_right_column {
+    text-align: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .about_left_column{
+    padding: 0 3rem 1rem 3rem;
+  }
+
+
+
+  /**** section - SERVICES *****/
+
+  .services_right_column {
+    height: 470px;
+    padding-left: 0;
+    margin-bottom: 3rem;
+  }
+
+  .services_left_column {
+    padding: 0;
+  }
+
+
+  /**** section - GALLERY *****/
+
+  .gallery_images_container .gallery_item {
+    padding: 0.55rem 0.9375rem;
+  }
+
+
+
+  /**** section - Subscribe To Us ****/
+
+  .section_subscribe {
+    background: url("../images/subscribe_bg.jpg") center top no-repeat;
+    background-size: 68%;
+  }
+
+  .subscribe_info {
+    margin-top: 63%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .subscribe_info p {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+
+  .subscribe_form {
+    text-align: center;
+  }
+
+  .subscribe_form input {
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+
+
+
+  /**** section - BLOG ****/
+
+  .blog_post {
+    width: 85%;
+    height: auto;
+    margin: 1rem auto;
+  }
+
+
+
+  /**** section - CONTACT ****/
+
+  .section_contact p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .contact_right_column {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-left: 0
+  }
+
+  .contact_left_column {
+    text-align: center;
+  }
+
+
+
+  /**** FOOTER ****/
+  .section_footer {
+    background-color: #262626;
+  }
+
+  .copyright_info {
+    text-align: center;
+    padding-bottom: 1rem; 
+  }
+
+  .made_info {
+    text-align: center;
+    padding-top: 1rem;  
+  }
+
+}
+
+
+    @media (min-width: 556px) and (max-width: 670px) {
+
+      /**** section - Subscribe To Us ****/
+      .section_subscribe {
+        background: url("../images/subscribe_bg.jpg") center top no-repeat;
+        background-size: 78%;
+      }
+
+      .subscribe_info p {
+        padding-right: 3rem;
+        padding-left: 3rem;
+      }
+    }
+
+
+
+
+/******** XS ********/
+
+@media (max-width: 575.98px) {
+  
+
+  /**** GENERAL ****/
+
+  /* typography */
+  html {
+    font-size: 85%;
+  }
+
+  h1 {
+    font-size: 2.55rem;
+    line-height: 2.7rem;
+    font-weight: 900;
+    margin-bottom: 1.375rem;
+  }
+
+  h2 {
+    font-size: 3.55rem;
+    line-height: 3.5rem;
+    padding-bottom: 1rem;
+  } 
+
+  h4 {
+    font-size: 1.45rem;
+    line-height: 1.6rem;
+  }
+
+
+  /* paddings */
+  .btn_container_lg {
+    padding-top: 2rem;
+  }
+
+
+
+   /* buttons */
+  .btn-lg {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding: 1rem 1.4rem;
+  }
+
+
+
+  /**** NAVBAR *****/
+
+  nav.navbar_large {
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+  }
+
+  /* change size - bar*/
+  nav.navbar_small {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
+
+  /* change size - brand */
+  .navbar_small .navbar-brand {
+    font-size: 2.3rem;
+  }
+
+  /* brand - top */
+  .brand_top {
+    font-size: 2.7rem;
+  }
+
+
+
+  /**** section - HOME ****/
+
+  .home_section{
+    background: url(../images/home_bg.jpg) 55% center no-repeat; 
+  }
+
+  .home_header .row {
+    height: 560px;
+  }
+
+  .home_header p {
+  padding-right: 4rem;
+}
+
+
+
+  /**** section - ABOUT US ****/
+
+  .about_right_column {
+    text-align: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .about_left_column{
+    padding: 0 1.5rem 1rem 1.5rem;
+  }
+
+
+
+  /**** section - SERVICES *****/
+
+  .services_right_column {
+    height: 350px;
+    margin-bottom: 1rem;
+  }
+
+  .btn_with_icon {
+    width: 95%;
+  }
+
+  .btn_with_icon {
+    transform: scale(1);
+    margin-bottom: 1.5rem;
+  }
+
+  .btn_with_icon:hover {
+    transform: scale(1.05);
+  }
+
+
+
+  /**** section - Subscribe To Us ****/
+  .section_subscribe {
+    background: url("../images/subscribe_bg.jpg") center top no-repeat;
+    background-size: 90%;
+  }
+
+  .subscribe_info p {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  } 
+
+  /**** section - BLOG *****/
+  .blog_post {
+    width: 100%;
+  }     
+}
+
+
+
+@media (max-width: 340px) {
+
+  /**** GENERAL ****/
+
+  /* typography */
+  h2 {
+    font-size: 3rem;
+    line-height: 3.1rem;
+    padding-bottom: 1rem;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+
+
+
+  /**** section - SERVICES *****/
+
+  .services_right_column {
+    height: 300px;
+  }
+
+  .btn_with_icon {
+    width: 100%;
+  }      
+
+}
+
